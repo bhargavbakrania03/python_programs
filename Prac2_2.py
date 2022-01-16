@@ -25,7 +25,7 @@ print(tup1)
 # d. Write a Python program to convert a tuple to a string.
 
 tup2 = ('My', 'name', 'is', 'Bhargav')
-var = ''.join(tup2)
+var = ''.join(tup2)  # join method to connect a tuple to a string variable
 print(var)
 
 

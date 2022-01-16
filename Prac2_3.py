@@ -11,7 +11,7 @@ print(set1)
 set1.add(64)
 print(set1)
 set1.clear()
-print(set1)
+print(set1) # prints set1() as the set1 is empty now
 
 
 # b. Write a Python program to remove an item from a set if it is present in the set.
@@ -19,10 +19,10 @@ print(set1)
 set1 = {14, 25, 39, 46}
 print('Enter an element to remove : ')
 element = input()
-if int(element) in set1:
+if int(element) in set1:  # checks if the entered element exist in the list or not
     set1.discard(int(element))
     print('Element removed successfully')
-    print(set1)
+    print(set1) # prints updated set1
 else:
     print('Entered element doesn\'t exist in the set')
 
@@ -53,26 +53,26 @@ tup = (2, 34, 28, 56, 99, 3, 28, 51, 2, 27)
 counter = 0
 num1 = []
 for i in list1:
-    temp = list1.count(i)
-    if temp >= counter:
+    temp = list1.count(i)  # counts total occurrence of mentioned number in the list and stores it in the temp variable
+    if temp >= counter:  # if temp is greater than counter, then update the temp
         counter = temp
-        if i not in num1:
+        if i not in num1:  # if the repeated number doesn't exist in the num1 list, then add it
             num1.append(i)
 
-print('Most Common Element in List : ', num1)
-print('Frequency : ', counter)
+print('Most Common Element in List : ', num1)  # prints the elements occurring more than 1 time in the list
+print('Frequency : ', counter)  # prints the count of that variable
 
 counter = 0
 num2 = []
 for i in tup:
-    temp = tup.count(i)
-    if temp >= counter:
+    temp = tup.count(i)  # counts total occurrence of mentioned number in the list and stores it in the temp variable
+    if temp >= counter:  # if temp is greater than counter, then update the temp
         counter = temp
-        if i not in num2:
+        if i not in num2:  # if the repeated number doesn't exist in the num2 list, then add it
             num2.append(i)
 
-print('Most Common Element in Tuple : ', num2)
-print('Frequency : ', counter)
+print('Most Common Element in Tuple : ', num2)  # prints the elements occurring more than 1 time in the list
+print('Frequency : ', counter)  # prints the count of that variable
 
 num3 = []
 for i in dict1:
@@ -81,11 +81,11 @@ for i in dict1:
 counter = 0
 common_num = []
 for i in num3:
-    temp = num3.count(i)
-    if temp >= counter:
+    temp = num3.count(i)  # counts total occurrence of mentioned number in the list and stores it in the temp variable
+    if temp >= counter:  # if temp is greater than counter, then update the temp
         counter = temp
-        if i not in common_num:
+        if i not in common_num: # if the repeated number doesn't exist in the common_num list, then add it
             common_num.append(i)
 
-print('Most Common Element in Dictionary : ', common_num)
-print('Frequency : ', counter)
+print('Most Common Element in Dictionary : ', common_num)  # prints the elements occurring more than 1 time in the list
+print('Frequency : ', counter)  # prints the count of that variable

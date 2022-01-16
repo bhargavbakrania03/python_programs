@@ -2,6 +2,7 @@
 ID : 20CE001
 NAME : BHARGAV BIPINBHAI BAKRANIA
 AIM : TO LEARN AND STUDY TUPLE IN PYTHON
+GITHUB REPOSITORY LINK : https://github.com/bhargavbakrania03/python_programs/edit/main/Prac2_2.py
 """
 
 # a. Write a Python program to create a tuple with different data types.

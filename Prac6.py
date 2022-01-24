@@ -1,7 +1,7 @@
 """
 ID : 20CE001
 NAME : BHARGAV BIPINBHAI BAKRANIA
-GITHUB REPOSITORY LINK :
+GITHUB REPOSITORY LINK : https://github.com/bhargavbakrania03/python_programs/edit/main/Prac6.py
 """
 
 # You are given n words. Some words may repeat. For each word, output its

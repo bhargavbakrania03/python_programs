@@ -1,7 +1,7 @@
 """
 ID : 20CE001
 NAME : BHARGAV BIPINBHAI BAKRANIA
-GITHUB REPOSITORY LINK : https://github.com/bhargavbakrania03/python_programs/edit/main/Prac5.py
+GITHUB REPOSITORY LINK : https://github.com/bhargavbakrania03/python_programs/blob/main/Prac5.py
 """
 
 # You are given a string and your task is to swap cases. In other words, convert

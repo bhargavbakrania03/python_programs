@@ -1,7 +1,7 @@
 """
 ID : 20CE001
 NAME : BHARGAV BIPINBHAI BAKRANIA
-GITHUB REPOSITORY LINK :
+GITHUB REPOSITORY LINK : https://github.com/bhargavbakrania03/python_programs/edit/main/Prac7.py
 """
 
 # Lapindrome is defined as a string which when split in the middle, gives two

@@ -16,7 +16,7 @@ for i in range(num):
     words.append(element)  # adding an element in the list
 
 count = 0
-occurrence = ''
+occurrence = ''  # variable to store occurrence of the words in order
 temp = []
 for i in words:
     if i not in temp:
@@ -24,5 +24,5 @@ for i in words:
         occurrence += ''.join(str(words.count(i)) + ' ')  # appending element's occurrence in a string variable to print
         count += 1  # counting total number of distinct elements in words list
 
-print(count)
-print(occurrence)
+print(count)  # printing the total count of distinct words
+print(occurrence)  # printing the occurrence of distinct words in order

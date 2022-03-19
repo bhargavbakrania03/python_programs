@@ -6,12 +6,12 @@ GITHUB REPOSITORY LINK : https://github.com/bhargavbakrania03/python_programs/bl
 
 from PIL import Image
 
-# Path for your image where it is
+# Opening the Image from its path
 img = Image.open(r'D:\4RTH SEM\CE259 PIP\PRACTICALS\PRACTICAL SCREENSHOTS\3rd Semester Marksheet.jpg')
 
-# Converting it into pdf
+# Converting the opened image into pdf file
 image_ms = img.convert('RGB')
 
-# Path where your PDF file will be saved
+# Saving the generated pdf file at specified address
 image_ms.save(r'D:\4RTH SEM\CE259 PIP\PRACTICALS\Prac10.pdf')
 
